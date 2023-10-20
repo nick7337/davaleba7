@@ -1,0 +1,124 @@
+/* HEADER */
+.container{
+    width: min(100%,1440px);
+    margin: auto;
+    padding-top: 135px;
+    
+}
+.header_top{
+    max-width: inherit;
+    width: inherit;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 32px 80px;
+    top: 0;
+    background: #372D23;
+    display: flex;
+    justify-content:
+    space-between;
+    align-items: center;
+    z-index: 1;
+}
+.active{
+    font-size: 24px;
+    color: #ED6C30;
+}
+.no_active{
+    font-size: 24px;
+    color: #B89278;
+}
+.ul_top{
+    display: flex;
+    column-gap: 52px;
+
+}
+/* section */
+.set1{
+    height: 640px;
+    position: relative;
+    
+}
+.big_foto{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    font-size: 48px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: calc(800/1440px*100%);
+}
+.but1{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: rgba(252, 194, 27,0.5);border: 3px solid #FCC21B;
+}
+.set2{
+    height: 320px;
+    bottom: 0;
+   
+    
+    
+    
+}
+.cover2{
+    display: flex;justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    
+    
+    
+
+}
+
+.box1{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    bottom: 100%;
+    transform: translateY(-100%);
+    
+
+    
+    
+    
+    
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: ;
+    background-color: rgba(55, 45, 35, 0.5);
+    width: 400px;
+    height: 88px;
+    
+}    
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgba(55, 45, 35, 0.5);
+    width: 400px;
+    height: 88px;
+}    
+    
+.text4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgba(55, 45, 35,0.5);
+    width: 400px;
+    height: 88px;
+   
+}
+/* article */
